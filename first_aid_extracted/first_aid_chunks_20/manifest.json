@@ -1,0 +1,237 @@
+{
+  "original": {
+    "name": "First Aid for the USMLE Step 1 2026.md",
+    "path": "C:\\Users\\UFMG\\Downloads\\First Aid for the USMLE Step 1 2026.md",
+    "sha256": "3b189084e043566a30b80f01ef9d86ef78030c827daec86bdd3d2848f66f0956",
+    "characters": 3004507,
+    "bytes": 3039633
+  },
+  "chunk_count": 20,
+  "chunks": [
+    {
+      "name": "chunk_001_of_020.md",
+      "index": 1,
+      "character_range": {
+        "start_inclusive": 0,
+        "end_exclusive": 150222
+      },
+      "characters": 150222,
+      "bytes": 151731,
+      "sha256": "3248e9b8a5e4f006fa3ba29406d638b6bcc66538ac92455525ab75b6b15312f5"
+    },
+    {
+      "name": "chunk_002_of_020.md",
+      "index": 2,
+      "character_range": {
+        "start_inclusive": 150222,
+        "end_exclusive": 300472
+      },
+      "characters": 150250,
+      "bytes": 152444,
+      "sha256": "fab0da2f49dc7ad739c971b1da399f517798d826178715b4f95ed45d6da9b2ec"
+    },
+    {
+      "name": "chunk_003_of_020.md",
+      "index": 3,
+      "character_range": {
+        "start_inclusive": 300472,
+        "end_exclusive": 450685
+      },
+      "characters": 150213,
+      "bytes": 152067,
+      "sha256": "986d69b686210ca8475d2afc3853a4f194d5c8f88a2accd9b44a976aea3d2ca1"
+    },
+    {
+      "name": "chunk_004_of_020.md",
+      "index": 4,
+      "character_range": {
+        "start_inclusive": 450685,
+        "end_exclusive": 600868
+      },
+      "characters": 150183,
+      "bytes": 151829,
+      "sha256": "190c949e7eb1d0d5caffbc1002ed2377d3984fd5cef9f434897446b560d1373d"
+    },
+    {
+      "name": "chunk_005_of_020.md",
+      "index": 5,
+      "character_range": {
+        "start_inclusive": 600868,
+        "end_exclusive": 751118
+      },
+      "characters": 150250,
+      "bytes": 152160,
+      "sha256": "3daff12d9032422311d1d6364df534f68c12ccb2566b71c74612acf8006b0762"
+    },
+    {
+      "name": "chunk_006_of_020.md",
+      "index": 6,
+      "character_range": {
+        "start_inclusive": 751118,
+        "end_exclusive": 901383
+      },
+      "characters": 150265,
+      "bytes": 152351,
+      "sha256": "5d9567cd9f729aac09bcf9366836be31dfc48a9bfa3cbf18801cb05e34d1d2c3"
+    },
+    {
+      "name": "chunk_007_of_020.md",
+      "index": 7,
+      "character_range": {
+        "start_inclusive": 901383,
+        "end_exclusive": 1051619
+      },
+      "characters": 150236,
+      "bytes": 152596,
+      "sha256": "6a59a9395cf66dac338d927b2c2c4bab18853fc3c63e4dc97795d742327ff1d1"
+    },
+    {
+      "name": "chunk_008_of_020.md",
+      "index": 8,
+      "character_range": {
+        "start_inclusive": 1051619,
+        "end_exclusive": 1201781
+      },
+      "characters": 150162,
+      "bytes": 153066,
+      "sha256": "6c0a17f5e34b16cd3312e47ae2abb8f19822c7e51b6b6a3b282dcec9a4b6ee47"
+    },
+    {
+      "name": "chunk_009_of_020.md",
+      "index": 9,
+      "character_range": {
+        "start_inclusive": 1201781,
+        "end_exclusive": 1352004
+      },
+      "characters": 150223,
+      "bytes": 152894,
+      "sha256": "1d5a525cc364f24805c66c74032cf827481eaa7744225e03a4df60cf82e9bca8"
+    },
+    {
+      "name": "chunk_010_of_020.md",
+      "index": 10,
+      "character_range": {
+        "start_inclusive": 1352004,
+        "end_exclusive": 1502224
+      },
+      "characters": 150220,
+      "bytes": 152550,
+      "sha256": "aa8c6e145926cfdc7f7b2568433cdf67c2dc675f6d7d7e58c921b2de8093a7b6"
+    },
+    {
+      "name": "chunk_011_of_020.md",
+      "index": 11,
+      "character_range": {
+        "start_inclusive": 1502224,
+        "end_exclusive": 1652484
+      },
+      "characters": 150260,
+      "bytes": 152266,
+      "sha256": "0e1efc229ed16d1edbb6ca0871ab6f1d4069875d4a7aeb83ad20b9fb9bd95839"
+    },
+    {
+      "name": "chunk_012_of_020.md",
+      "index": 12,
+      "character_range": {
+        "start_inclusive": 1652484,
+        "end_exclusive": 1802694
+      },
+      "characters": 150210,
+      "bytes": 152343,
+      "sha256": "0d4cf981d9ef9f884032bc443eeabc44e45c9ad6bcf5d62dcb6ca592ac62c6d2"
+    },
+    {
+      "name": "chunk_013_of_020.md",
+      "index": 13,
+      "character_range": {
+        "start_inclusive": 1802694,
+        "end_exclusive": 1952931
+      },
+      "characters": 150237,
+      "bytes": 152524,
+      "sha256": "1a149f3cadc1e615d0e77d155723f7e976895a7e5d0c3d99ea45f6a5d73f7121"
+    },
+    {
+      "name": "chunk_014_of_020.md",
+      "index": 14,
+      "character_range": {
+        "start_inclusive": 1952931,
+        "end_exclusive": 2103164
+      },
+      "characters": 150233,
+      "bytes": 153113,
+      "sha256": "71d7c748eaf5357a0d8a716e6ec6817d22eb52bf7917a28bf948f262b26298d6"
+    },
+    {
+      "name": "chunk_015_of_020.md",
+      "index": 15,
+      "character_range": {
+        "start_inclusive": 2103164,
+        "end_exclusive": 2253377
+      },
+      "characters": 150213,
+      "bytes": 152827,
+      "sha256": "c5aaf820b47fa126b9164a8810d36485ea0554e0cf412fd1fd6bd46a683c5e23"
+    },
+    {
+      "name": "chunk_016_of_020.md",
+      "index": 16,
+      "character_range": {
+        "start_inclusive": 2253377,
+        "end_exclusive": 2403589
+      },
+      "characters": 150212,
+      "bytes": 150870,
+      "sha256": "39e6a12056e2aabc74c69cd601bfd95da94589742de4d2bd6fcdac37e9fb6682"
+    },
+    {
+      "name": "chunk_017_of_020.md",
+      "index": 17,
+      "character_range": {
+        "start_inclusive": 2403589,
+        "end_exclusive": 2553848
+      },
+      "characters": 150259,
+      "bytes": 150614,
+      "sha256": "e0c98d622cb22b8b2f3b55322bedec6bed647caabd89818a9b7cb94f613b4b5c"
+    },
+    {
+      "name": "chunk_018_of_020.md",
+      "index": 18,
+      "character_range": {
+        "start_inclusive": 2553848,
+        "end_exclusive": 2704036
+      },
+      "characters": 150188,
+      "bytes": 150454,
+      "sha256": "d9023a29f93181ec1cee05b646738effc9cc46c44d990d09d872b94c5452808a"
+    },
+    {
+      "name": "chunk_019_of_020.md",
+      "index": 19,
+      "character_range": {
+        "start_inclusive": 2704036,
+        "end_exclusive": 2854273
+      },
+      "characters": 150237,
+      "bytes": 150449,
+      "sha256": "2e30213dc36064f0347fa880cb642446eea9a503ab39ce23bbba079dfa5d04df"
+    },
+    {
+      "name": "chunk_020_of_020.md",
+      "index": 20,
+      "character_range": {
+        "start_inclusive": 2854273,
+        "end_exclusive": 3004507
+      },
+      "characters": 150234,
+      "bytes": 150485,
+      "sha256": "661da91073d7b6bb9f89dd64286ce8a17fca23dd4bc467ffa59b1f0f16b20a5b"
+    }
+  ],
+  "integrity_verification": {
+    "byte_for_byte_identical": true,
+    "reconstructed_sha256": "3b189084e043566a30b80f01ef9d86ef78030c827daec86bdd3d2848f66f0956",
+    "matches_original_sha256": true
+  }
+}
