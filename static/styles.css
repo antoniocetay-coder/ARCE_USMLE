@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --sidebar-bg: #003B36;
+    --sidebar-active: #0D5C54;
+    --primary-dark: #003B36;
+    --primary-green: #059669;
+    --bg-main: #F6F9F8;
+}
+
+body, .nicegui-content {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-main) !important;
+    min-height: 100vh;
+    color: #0F172A;
+}
+
+.heading-font {
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+}
+
+/* Glassmorphism & Card Design */
+.glass-card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 1.25rem !important;
+    box-shadow: 0 4px 15px rgba(0, 59, 54, 0.04) !important;
+}
+
+.metric-card-clean, .study-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metric-card-clean:hover, .study-card:hover, .card-hover-lift:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
+    border-color: #CBD5E1 !important;
+}
+
+/* Sidebar Original High-Contrast Styling */
+.app-drawer {
+    background: #003B36 !important;
+    color: #FFFFFF !important;
+    border-right: none !important;
+}
+
+.app-drawer .q-btn {
+    text-transform: none !important;
+}
+
+.nav-link, .nav-active {
+    width: calc(100% - 1.5rem) !important;
+    margin: 0.25rem 0.75rem !important;
+    padding: 0.65rem 1rem !important;
+    justify-content: flex-start !important;
+    border-radius: 0.85rem !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+    font-size: 0.925rem !important;
+}
+
+.nav-link, .nav-link span, .nav-link .q-icon {
+    color: #CBD5E1 !important;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover span, .nav-link:hover .q-icon {
+    color: #34D399 !important;
+}
+
+.nav-active, .nav-active span {
+    background: #0D5C54 !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.nav-active .q-icon {
+    color: #34D399 !important;
+}
+
+/* Header Styling */
+.app-header {
+    background: #FFFFFF !important;
+    border-bottom: 1px solid #E2E8F0 !important;
+    color: #0F172A;
+}
+
+/* Primary Button */
+.btn-primary-dark {
+    background-color: #003B36 !important;
+    color: #FFFFFF !important;
+    border-radius: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    padding: 0.65rem 1.4rem !important;
+}
+
+.btn-primary-dark:hover {
+    background-color: #044E47 !important;
+}
+
+
+/* Day dots */
+.day-dot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.day-dot-active {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    color: white;
+    box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);
+}
+
+.day-dot-inactive {
+    background: #E2E8F0;
+    color: #94A3B8;
+}
+
+/* AI Live Status Badge Pulsing Animation */
+.ai-pulse-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10B981;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    animation: ai-pulse 1.8s infinite;
+}
+
+@keyframes ai-pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+/* BKT Mastery Badges */
+.badge-mastery-new {
+    background: #F1F5F9;
+    color: #475569;
+    border: 1px solid #CBD5E1;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.badge-mastery-learning {
+    background: #FEF3C7;
+    color: #92400E;
+    border: 1px solid #FCD34D;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.badge-mastery-consolidated {
+    background: #D1FAE5;
+    color: #065F46;
+    border: 1px solid #6EE7B7;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.badge-mastery-mastered {
+    background: linear-gradient(135deg, #F3E8FF 0%, #EDE9FE 100%);
+    color: #6B21A8;
+    border: 1px solid #C084FC;
+    font-weight: 800;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    box-shadow: 0 2px 8px rgba(192, 132, 252, 0.2);
+}
+
+/* 3D Flashcard Flip Styling */
+.flashcard-3d-wrapper {
+    perspective: 1000px;
+    width: 100%;
+}
+
+.flashcard-3d-card {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.flashcard-3d-flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-face {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.flashcard-back-face {
+    transform: rotateY(180deg);
+}
+
+/* Obsidian Knowledge Base & Ontology Styling */
+.obsidian-card {
+    background: linear-gradient(145deg, #FFFFFF 0%, #F8FAFC 100%) !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 1.25rem !important;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.obsidian-card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1) !important;
+    border-color: #0EA5E9 !important;
+}
+
+.ontology-badge {
+    font-size: 0.725rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    padding: 0.25rem 0.65rem;
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    text-transform: uppercase;
+}
+
+.ontology-badge-disease { background: #FFE4E6; color: #9F1239; border: 1px solid #FDA4AF; }
+.ontology-badge-drug { background: #E0E7FF; color: #3730A3; border: 1px solid #A5B4FC; }
+.ontology-badge-gene { background: #F3E8FF; color: #6B21A8; border: 1px solid #D8B4FE; }
+.ontology-badge-receptor { background: #FAE8FF; color: #86198F; border: 1px solid #F0ABFC; }
+.ontology-badge-pathway { background: #ECFDF5; color: #065F46; border: 1px solid #6EE7B7; }
+.ontology-badge-test { background: #E0F2FE; color: #075985; border: 1px solid #7DD3FC; }
+.ontology-badge-finding { background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; }
+.ontology-badge-default { background: #F1F5F9; color: #334155; border: 1px solid #CBD5E1; }
+
+.knowledge-fragment-box {
+    background: #0F172A !important;
+    color: #F8FAFC !important;
+    border-radius: 0.85rem !important;
+    padding: 1rem 1.25rem !important;
+    font-family: 'Fira Code', monospace, sans-serif !important;
+    font-size: 0.85rem !important;
+    line-height: 1.6 !important;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Ergonomia de Vinheta Médica (USMLE Reading Ergonomics) */
+.vignette-container {
+    max-width: 72ch;
+    font-size: 1.05rem;
+    line-height: 1.72;
+    color: #0F172A;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+body.body--dark .vignette-container {
+    color: #F8FAFC !important;
+}
+
+/* Discrimination Drill UI (A vs B Sprint Mode) */
+.drill-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%);
+    border: 2px solid #E2E8F0;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 59, 54, 0.06);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drill-choice-btn {
+    transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease !important;
+    border-radius: 1.25rem !important;
+    padding: 1.5rem !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    cursor: pointer;
+}
+
+.drill-choice-btn:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+.drill-choice-btn:active {
+    transform: scale(0.98);
+}
+
+.drill-choice-a {
+    background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%) !important;
+    border: 2px solid #93C5FD !important;
+    color: #1E40AF !important;
+}
+
+.drill-choice-b {
+    background: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%) !important;
+    border: 2px solid #D8B4FE !important;
+    color: #6B21A8 !important;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.slide-up {
+    animation: slideUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Option Strike-Through for Distractor Elimination */
+.option-strikethrough {
+    text-decoration: line-through !important;
+    opacity: 0.45 !important;
+    filter: grayscale(80%) !important;
+}
+
+.strike-toggle-btn {
+    transition: transform 0.15s ease;
+}
+
+.strike-toggle-btn:hover {
+    transform: scale(1.15);
+}
+

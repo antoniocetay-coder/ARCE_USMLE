@@ -1,0 +1,7 @@
+[tool.ruff.lint]
+ignore = ["E701", "E702", "F401"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

@@ -1,0 +1,8 @@
+nicegui
+google-genai
+pandas
+plotly
+pytest
+python-dotenv
+fsrs>=4.0.0
+
